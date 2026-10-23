@@ -1,0 +1,37 @@
+{
+  "name": "qq-group-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "QQ 群聊 AI 机器人（官方 QQ 机器人开放平台 + WebSocket）",
+  "keywords": [
+    "qqbot",
+    "qq",
+    "bot",
+    "llm",
+    "deepseek",
+    "onebot"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreshFeel1ng/holyshit-qqbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FreshFeel1ng/holyshit-qqbot/issues"
+  },
+  "homepage": "https://github.com/FreshFeel1ng/holyshit-qqbot#readme",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "dev": "node --env-file-if-exists=.env --watch src/index.js",
+    "check": "node --env-file-if-exists=.env scripts/check-config.mjs",
+    "selftest": "node scripts/selftest.mjs",
+    "probe": "node scripts/probe.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

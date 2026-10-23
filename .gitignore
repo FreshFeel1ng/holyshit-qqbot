@@ -1,0 +1,25 @@
+# 依赖与缓存
+node_modules/
+.npm-cache/
+
+# 本地配置与密钥（务必不要提交）
+.env
+.env.local
+*.pem
+*.key
+
+# 运行时数据：会话记忆、人设规则（含群号和聊天内容）
+data/
+logs/
+*.log
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.tmp
+*.swp
+
+# 临时诊断报告
+acl-*.jsonl
