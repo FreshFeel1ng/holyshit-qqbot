@@ -23,3 +23,5 @@ Thumbs.db
 
 # 临时诊断报告
 acl-*.jsonl
+
+dist/
